@@ -33,16 +33,16 @@ public class Calculadora {
     public double getAdicao() {
         return (getValorA() + getValorB());
     }
-    
-        public double getSubtracao() {
+
+    public double getSubtracao() {
         return (getValorA() - getValorB());
     }
-    
-        public double getProduto() {
+
+    public double getProduto() {
         return (getValorA() * getValorB());
     }
-    
-        public double getDivisao() {
+
+    public double getDivisao() {
         return (getValorA() / getValorB());
     }
 
