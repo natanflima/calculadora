@@ -1,3 +1,4 @@
+
 package calculadora;
 
 public class Calculadora {
@@ -26,8 +27,8 @@ public class Calculadora {
         this.valorA = valorA;
     }
 
-    public void setValorB(double valorA) {
-        this.valorA = valorA;
+    public void setValorB(double valorB) {
+        this.valorA = valorB;
     }
 
     public double getAdicao() {
@@ -46,8 +47,21 @@ public class Calculadora {
         return (getValorA() / getValorB());
     }
 
-    public String getSubtração() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
